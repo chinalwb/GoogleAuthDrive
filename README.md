@@ -13,3 +13,5 @@ The API_KEY and CLIENT_ID in the code are created with my google account, so you
 1. To create OAuth 2.0 credentials on `Google Developer Console` - https://console.developers.google.com/apis/credentials
 2. Create `API Key`
 3. Enable Drive API from `Library`
+
+License: MIT

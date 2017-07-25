@@ -3,6 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
+
+    useLibrary 'org.apache.http.legacy'
+
     defaultConfig {
         applicationId "drive.googleauth.chinalwb.com.googleauthdrive"
         minSdkVersion 15
@@ -26,5 +29,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/httpmime-4.1.2.jar')
+    // all dependent .jars online
     testCompile 'junit:junit:4.12'
 }
